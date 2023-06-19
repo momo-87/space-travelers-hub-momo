@@ -15,7 +15,7 @@ function App() {
           <Route path="/missions" element={<Missions />} />
           <Route path="/profile" element={<MyProfile />} />
           <Route path="*" element={<NotMatch />} />
-       </Route>
+        </Route>
       </Routes>
     </div>
   );
